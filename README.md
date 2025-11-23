@@ -9,7 +9,7 @@ A comprehensive reference guide to sports from around the world, organized by ca
 - [Winter Sports](#winter-sports)
 - [Combat Sports](#combat-sports)
 - [Racket Sports](#racket-sports)
-- [Athletics and Track & Field](#athletics-and-track--field)
+- [Athletics and Track & Field](#athletics-and-track-field)
 - [Motor Sports](#motor-sports)
 - [Extreme Sports](#extreme-sports)
 
