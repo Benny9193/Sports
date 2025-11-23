@@ -1,8 +1,10 @@
-const http = require('http');
-const fs = require('fs');
-const path = require('path');
+/**
+ * Sports Application Server
+ * Main entry point for the application
+ */
 
-const PORT = process.env.PORT || 3000;
+const app = require('./src/app');
+const config = require('./src/config/config');
 
 const mimeTypes = {
     '.html': 'text/html',
