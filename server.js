@@ -1,48 +1,31 @@
-const http = require('http');
-const fs = require('fs');
-const path = require('path');
+/**
+ * Sports Application Server
+ * Main entry point for the application
+ */
 
-const PORT = process.env.PORT || 3000;
+const app = require('./src/app');
+const config = require('./src/config/config');
 
-const mimeTypes = {
-    '.html': 'text/html',
-    '.css': 'text/css',
-    '.js': 'text/javascript',
-    '.json': 'application/json',
-    '.png': 'image/png',
-    '.jpg': 'image/jpeg',
-    '.gif': 'image/gif',
-    '.svg': 'image/svg+xml',
-    '.ico': 'image/x-icon'
-};
+const server = app.listen(config.port, () => {
+    console.log(`🏆 Sports Compendium server running at http://localhost:${config.port}/`);
+    console.log(`🌐 API endpoints available at http://localhost:${config.port}/api/`);
+    console.log(`📝 Environment: ${config.nodeEnv}`);
+    console.log(`Press Ctrl+C to stop the server`);
+});
 
-const server = http.createServer((req, res) => {
-    let filePath = '.' + req.url;
-
-    if (filePath === './') {
-        filePath = './index.html';
-    }
-
-    const extname = String(path.extname(filePath)).toLowerCase();
-    const contentType = mimeTypes[extname] || 'application/octet-stream';
-
-    fs.readFile(filePath, (error, content) => {
-        if (error) {
-            if (error.code === 'ENOENT') {
-                res.writeHead(404, { 'Content-Type': 'text/html' });
-                res.end('<h1>404 - File Not Found</h1>', 'utf-8');
-            } else {
-                res.writeHead(500);
-                res.end('Server Error: ' + error.code);
-            }
-        } else {
-            res.writeHead(200, { 'Content-Type': contentType });
-            res.end(content, 'utf-8');
-        }
+// Graceful shutdown
+process.on('SIGTERM', () => {
+    console.log('SIGTERM received, shutting down gracefully');
+    server.close(() => {
+        console.log('Server closed');
+        process.exit(0);
     });
 });
 
-server.listen(PORT, () => {
-    console.log(`🏆 Sports Compendium server running at http://localhost:${PORT}/`);
-    console.log(`Press Ctrl+C to stop the server`);
+process.on('SIGINT', () => {
+    console.log('SIGINT received, shutting down gracefully');
+    server.close(() => {
+        console.log('Server closed');
+        process.exit(0);
+    });
 });

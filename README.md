@@ -1,30 +1,47 @@
 # Sports
 
-A sports application project.
+A comprehensive sports application project with both web interface and RESTful API.
 
-## 🚀 Web Application
+## 🚀 Quick Start
 
-This repository includes an interactive web application to browse and search sports!
+### Installation
 
-### Running the Web App
-
-1. **Clone the repository** (if you haven't already)
+1. **Clone the repository**
    ```bash
    git clone <repository-url>
    cd Sports
    ```
 
-2. **Start the server**
+2. **Install dependencies**
    ```bash
-   node server.js
+   npm install
    ```
-   Or using npm:
+
+3. **Configure environment** (optional)
+   ```bash
+   cp .env.example .env
+   # Edit .env with your preferred settings
+   ```
+
+4. **Start the server**
    ```bash
    npm start
    ```
 
-3. **Open your browser**
-   Navigate to `http://localhost:3000`
+5. **Access the application**
+   - Web App: `http://localhost:3000`
+   - API: `http://localhost:3000/api`
+
+### Development Mode
+
+Run the server with auto-reload on file changes:
+```bash
+npm run dev
+```
+
+## 🌐 Web Application
+
+Interactive web application to browse and search sports!
 
 ### Features
 
@@ -33,12 +50,49 @@ This repository includes an interactive web application to browse and search spo
 - 📊 **Statistics**: See sport counts and filtered results
 - 📱 **Responsive**: Works on desktop, tablet, and mobile devices
 - 🎨 **Modern UI**: Clean, intuitive interface with smooth interactions
+- 🌙 **Dark Mode**: Toggle between light and dark themes
+- ❤️ **Favorites**: Save your favorite sports
+
+## 🔌 RESTful API
+
+Complete backend API for accessing sports data programmatically.
+
+### API Endpoints
+
+- `GET /api/health` - Check API status
+- `GET /api/categories` - Get all sport categories
+- `GET /api/sports` - Get all sports (hierarchical)
+- `GET /api/sports/flat` - Get all sports (flat array)
+- `GET /api/sports/category/:category` - Get sports by category
+- `GET /api/sports/search?q=query` - Search sports
+
+### Example Usage
+
+```bash
+# Get all categories
+curl http://localhost:3000/api/categories
+
+# Search for sports
+curl "http://localhost:3000/api/sports/search?q=football"
+
+# Get sports in a category
+curl http://localhost:3000/api/sports/category/water
+```
+
+For detailed API documentation, see [docs/API.md](docs/API.md).
 
 ### Technology Stack
 
-- Pure HTML5, CSS3, and JavaScript (no frameworks required)
-- Node.js for the development server
+**Backend:**
+- Node.js & Express.js
+- RESTful API architecture
+- CORS support
+- Environment-based configuration
+
+**Frontend:**
+- Pure HTML5, CSS3, and JavaScript
 - Responsive design with CSS Grid and Flexbox
+- No framework dependencies
 
 ## Table of Contents
 - [Team Sports](#team-sports)
