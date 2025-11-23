@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Compendium - Your Complete Sports Reference</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🏆 Sports Compendium</h1>
+            <p class="subtitle">A comprehensive reference guide to sports from around the world</p>
+
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search for a sport...">
+            </div>
+        </div>
+    </header>
+
+    <nav class="category-nav">
+        <div class="container">
+            <button class="category-btn active" data-category="all">All Sports</button>
+            <button class="category-btn" data-category="team">Team Sports</button>
+            <button class="category-btn" data-category="individual">Individual</button>
+            <button class="category-btn" data-category="water">Water Sports</button>
+            <button class="category-btn" data-category="winter">Winter Sports</button>
+            <button class="category-btn" data-category="combat">Combat</button>
+            <button class="category-btn" data-category="racket">Racket Sports</button>
+            <button class="category-btn" data-category="athletics">Athletics</button>
+            <button class="category-btn" data-category="motor">Motor Sports</button>
+            <button class="category-btn" data-category="extreme">Extreme</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div id="sportsContainer"></div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Sports Compendium - A living document. Contributions, corrections, and additions are welcome!</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
