@@ -2,131 +2,45 @@
 
 A sports application project.
 
-## Project Structure
+## 🚀 Web Application
 
-```
-Sports/
-├── src/              # Source code
-│   └── index.js      # Application entry point
-├── tests/            # Test files
-├── docs/             # Documentation
-├── package.json      # Project dependencies and scripts
-├── .gitignore        # Git ignore rules
-└── README.md         # This file
-```
+This repository includes an interactive web application to browse and search sports!
 
-## Getting Started
+### Running the Web App
 
-### Prerequisites
+1. **Clone the repository** (if you haven't already)
+   ```bash
+   git clone <repository-url>
+   cd Sports
+   ```
 
-- Node.js (v14 or higher)
-- npm
+2. **Start the server**
+   ```bash
+   node server.js
+   ```
+   Or using npm:
+   ```bash
+   npm start
+   ```
 
-### Installation
+3. **Open your browser**
+   Navigate to `http://localhost:3000`
 
-```bash
-npm install
-```
+### Features
 
-### Running the Application
+- 🔍 **Search**: Quickly find sports by name or description
+- 🏷️ **Filter**: Browse sports by category
+- 📊 **Statistics**: See sport counts and filtered results
+- 📱 **Responsive**: Works on desktop, tablet, and mobile devices
+- 🎨 **Modern UI**: Clean, intuitive interface with smooth interactions
 
-```bash
-npm start
-```
+### Technology Stack
 
-### Testing
+- Pure HTML5, CSS3, and JavaScript (no frameworks required)
+- Node.js for the development server
+- Responsive design with CSS Grid and Flexbox
 
-```bash
-npm test
-```
-
-## License
-
-ISC
-# Sports Compendium 🏆
-
-A comprehensive web-based reference guide to sports from around the world, organized by category.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
-## 🌐 Live Demo
-
-Open `index.html` in your browser to explore the interactive web application.
-
-## ✨ Features
-
-- **Interactive Search** - Real-time search across all sports and descriptions
-- **Category Filtering** - Filter by sport type (Team, Individual, Water, Winter, Combat, etc.)
-- **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
-- **Modern UI** - Clean, card-based design with smooth animations
-- **Easy Navigation** - Sticky category bar for quick access
-
-## 🚀 Quick Start
-
-### View the Web App
-
-Simply open `index.html` in any modern web browser.
-
-### Run with Live Server
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm start
-```
-
-Visit `http://localhost:3000` in your browser.
-
-### Alternative: Node.js Server
-
-```bash
-# Run the basic HTTP server
-node server.js
-```
-
-## 📁 Project Structure
-
-```
-sports-compendium/
-├── index.html          # Main HTML file
-├── styles.css          # Styling and responsive design
-├── app.js              # JavaScript for interactivity
-├── package.json        # Project dependencies
-├── server.js           # Simple HTTP server
-├── CONTRIBUTING.md     # Contribution guidelines
-├── .gitignore          # Git ignore rules
-└── README.md           # This file
-```
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3 (with CSS Variables and Flexbox/Grid)
-- Vanilla JavaScript (ES6+)
-- No external frameworks or libraries required
-
-## 📱 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## 🤝 Contributing
-
-Contributions, corrections, and additions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute.
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 📚 Sports Categories
-
-### Table of Contents
+## Table of Contents
 - [Team Sports](#team-sports)
 - [Individual Sports](#individual-sports)
 - [Water Sports](#water-sports)

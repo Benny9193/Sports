@@ -1,13 +1,19 @@
 {
-  "name": "sports",
+  "name": "sports-compendium",
   "version": "1.0.0",
-  "description": "A sports application",
-  "main": "src/index.js",
+  "description": "A comprehensive reference guide to sports from around the world",
+  "main": "server.js",
   "scripts": {
-    "start": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
-  "keywords": ["sports"],
+  "keywords": [
+    "sports",
+    "compendium",
+    "reference",
+    "web-app"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {}
 }

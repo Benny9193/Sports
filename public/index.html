@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A comprehensive reference guide to sports from around the world">
+    <title>Sports Compendium - Your Ultimate Sports Reference</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">🏆 Sports Compendium</h1>
+            <p class="header__subtitle">A comprehensive reference guide to sports from around the world</p>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="search-section">
+                <input
+                    type="text"
+                    id="searchInput"
+                    class="search-input"
+                    placeholder="Search sports..."
+                    aria-label="Search sports"
+                >
+                <div class="filter-buttons" id="filterButtons"></div>
+            </div>
+
+            <div class="stats" id="stats">
+                <p class="stats__text">Loading sports data...</p>
+            </div>
+
+            <div class="sports-grid" id="sportsGrid">
+                <!-- Sports categories will be dynamically inserted here -->
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Sports Compendium. A living document for sports enthusiasts.</p>
+            <p>Contributions, corrections, and additions are welcome!</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>
