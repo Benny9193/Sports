@@ -166,6 +166,9 @@ Category (e.g., "team")
 - Input validation in controllers
 - Error messages don't expose system details in production
 
+### Known Limitations
+- **Rate Limiting**: Not currently implemented. This is a read-only API with public data, but rate limiting should be added for production use to prevent abuse. See Future Enhancements section.
+
 ## Future Enhancements
 
 - [ ] Database integration (MongoDB/PostgreSQL)

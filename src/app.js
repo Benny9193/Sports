@@ -36,6 +36,7 @@ app.get('/api/health', (req, res) => {
 });
 
 // Serve index.html for the root route
+// Note: Rate limiting is not implemented yet - see docs/ARCHITECTURE.md for future enhancements
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../index.html'));
 });
