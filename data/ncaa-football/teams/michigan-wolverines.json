@@ -1,0 +1,89 @@
+{
+  "teamInfo": {
+    "name": "Michigan Wolverines",
+    "city": "Ann Arbor",
+    "state": "Michigan",
+    "abbreviation": "MICH",
+    "conference": "Big Ten",
+    "division": "",
+    "founded": 1879,
+    "stadium": "Michigan Stadium (The Big House)",
+    "headCoach": "Sherrone Moore",
+    "colors": ["Maize", "Blue"],
+    "mascot": "Wolverine"
+  },
+  "roster": [
+    {
+      "number": 7,
+      "name": "Davis Warren",
+      "position": "QB",
+      "height": "6-3",
+      "weight": 215,
+      "year": "Junior",
+      "hometown": "Southlake, TX"
+    },
+    {
+      "number": 5,
+      "name": "Kalel Mullings",
+      "position": "RB",
+      "height": "6-2",
+      "weight": 235,
+      "year": "Senior",
+      "hometown": "Roxbury, MA"
+    },
+    {
+      "number": 1,
+      "name": "Semaj Morgan",
+      "position": "WR",
+      "height": "6-1",
+      "weight": 195,
+      "year": "Junior",
+      "hometown": "Bradenton, FL"
+    },
+    {
+      "number": 2,
+      "name": "Tyler Morris",
+      "position": "WR",
+      "height": "6-0",
+      "weight": 195,
+      "year": "Senior",
+      "hometown": "Las Vegas, NV"
+    },
+    {
+      "number": 86,
+      "name": "Colston Loveland",
+      "position": "TE",
+      "height": "6-5",
+      "weight": 245,
+      "year": "Junior",
+      "hometown": "Gooding, ID"
+    },
+    {
+      "number": 55,
+      "name": "Mason Graham",
+      "position": "DT",
+      "height": "6-3",
+      "weight": 318,
+      "year": "Sophomore",
+      "hometown": "Anaheim, CA"
+    },
+    {
+      "number": 32,
+      "name": "Jaishawn Barham",
+      "position": "LB",
+      "height": "6-2",
+      "weight": 235,
+      "year": "Junior",
+      "hometown": "Hyattsville, MD"
+    },
+    {
+      "number": 0,
+      "name": "Will Johnson",
+      "position": "CB",
+      "height": "6-2",
+      "weight": 202,
+      "year": "Junior",
+      "hometown": "Grosse Pointe, MI"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "teamInfo": {
+    "name": "Georgia Bulldogs",
+    "city": "Athens",
+    "state": "Georgia",
+    "abbreviation": "UGA",
+    "conference": "SEC",
+    "division": "",
+    "founded": 1892,
+    "stadium": "Sanford Stadium",
+    "headCoach": "Kirby Smart",
+    "colors": ["Red", "Black"],
+    "mascot": "Uga"
+  },
+  "roster": [
+    {
+      "number": 14,
+      "name": "Carson Beck",
+      "position": "QB",
+      "height": "6-4",
+      "weight": 220,
+      "year": "Junior",
+      "hometown": "Jacksonville, FL"
+    },
+    {
+      "number": 3,
+      "name": "Trevor Etienne",
+      "position": "RB",
+      "height": "5-9",
+      "weight": 210,
+      "year": "Junior",
+      "hometown": "Jennings, LA"
+    },
+    {
+      "number": 5,
+      "name": "Arian Smith",
+      "position": "WR",
+      "height": "6-0",
+      "weight": 190,
+      "year": "Senior",
+      "hometown": "Lakeland, FL"
+    },
+    {
+      "number": 16,
+      "name": "Dillon Bell",
+      "position": "WR",
+      "height": "6-0",
+      "weight": 185,
+      "year": "Senior",
+      "hometown": "Rock Hill, SC"
+    },
+    {
+      "number": 80,
+      "name": "Oscar Delp",
+      "position": "TE",
+      "height": "6-5",
+      "weight": 252,
+      "year": "Junior",
+      "hometown": "Cumming, GA"
+    },
+    {
+      "number": 88,
+      "name": "Mykel Williams",
+      "position": "DE",
+      "height": "6-5",
+      "weight": 265,
+      "year": "Junior",
+      "hometown": "Columbus, GA"
+    },
+    {
+      "number": 11,
+      "name": "Jalon Walker",
+      "position": "LB",
+      "height": "6-2",
+      "weight": 245,
+      "year": "Sophomore",
+      "hometown": "Salisbury, NC"
+    },
+    {
+      "number": 2,
+      "name": "Malaki Starks",
+      "position": "S",
+      "height": "6-1",
+      "weight": 205,
+      "year": "Junior",
+      "hometown": "Jefferson, GA"
+    }
+  ]
+}

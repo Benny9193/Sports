@@ -10,6 +10,30 @@
       "conference": "Big Ten",
       "division": "",
       "dataFile": "teams/oregon-ducks.json"
+    },
+    {
+      "id": "alabama-crimson-tide",
+      "name": "Alabama Crimson Tide",
+      "abbreviation": "ALA",
+      "conference": "SEC",
+      "division": "",
+      "dataFile": "teams/alabama-crimson-tide.json"
+    },
+    {
+      "id": "michigan-wolverines",
+      "name": "Michigan Wolverines",
+      "abbreviation": "MICH",
+      "conference": "Big Ten",
+      "division": "",
+      "dataFile": "teams/michigan-wolverines.json"
+    },
+    {
+      "id": "georgia-bulldogs",
+      "name": "Georgia Bulldogs",
+      "abbreviation": "UGA",
+      "conference": "SEC",
+      "division": "",
+      "dataFile": "teams/georgia-bulldogs.json"
     }
   ]
 }

@@ -1,0 +1,96 @@
+{
+  "teamInfo": {
+    "name": "San Francisco 49ers",
+    "city": "San Francisco",
+    "state": "California",
+    "abbreviation": "SF",
+    "conference": "NFC",
+    "division": "West",
+    "founded": 1946,
+    "stadium": "Levi's Stadium",
+    "headCoach": "Kyle Shanahan",
+    "colors": ["Red", "Gold"]
+  },
+  "roster": [
+    {
+      "number": 13,
+      "name": "Brock Purdy",
+      "position": "QB",
+      "height": "6-1",
+      "weight": 220,
+      "age": 24,
+      "experience": 3,
+      "college": "Iowa State"
+    },
+    {
+      "number": 23,
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "height": "5-11",
+      "weight": 205,
+      "age": 28,
+      "experience": 8,
+      "college": "Stanford"
+    },
+    {
+      "number": 19,
+      "name": "Deebo Samuel",
+      "position": "WR",
+      "height": "6-0",
+      "weight": 215,
+      "age": 28,
+      "experience": 6,
+      "college": "South Carolina"
+    },
+    {
+      "number": 11,
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "height": "6-0",
+      "weight": 200,
+      "age": 26,
+      "experience": 5,
+      "college": "Arizona State"
+    },
+    {
+      "number": 85,
+      "name": "George Kittle",
+      "position": "TE",
+      "height": "6-4",
+      "weight": 250,
+      "age": 31,
+      "experience": 8,
+      "college": "Iowa"
+    },
+    {
+      "number": 97,
+      "name": "Nick Bosa",
+      "position": "DE",
+      "height": "6-4",
+      "weight": 266,
+      "age": 27,
+      "experience": 6,
+      "college": "Ohio State"
+    },
+    {
+      "number": 54,
+      "name": "Fred Warner",
+      "position": "LB",
+      "height": "6-3",
+      "weight": 230,
+      "age": 28,
+      "experience": 7,
+      "college": "BYU"
+    },
+    {
+      "number": 7,
+      "name": "Charvarius Ward",
+      "position": "CB",
+      "height": "6-1",
+      "weight": 196,
+      "age": 28,
+      "experience": 7,
+      "college": "Middle Tennessee"
+    }
+  ]
+}

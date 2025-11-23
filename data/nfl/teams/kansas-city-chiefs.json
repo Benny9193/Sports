@@ -1,0 +1,96 @@
+{
+  "teamInfo": {
+    "name": "Kansas City Chiefs",
+    "city": "Kansas City",
+    "state": "Missouri",
+    "abbreviation": "KC",
+    "conference": "AFC",
+    "division": "West",
+    "founded": 1960,
+    "stadium": "GEHA Field at Arrowhead Stadium",
+    "headCoach": "Andy Reid",
+    "colors": ["Red", "Gold", "White"]
+  },
+  "roster": [
+    {
+      "number": 15,
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "height": "6-3",
+      "weight": 230,
+      "age": 29,
+      "experience": 8,
+      "college": "Texas Tech"
+    },
+    {
+      "number": 87,
+      "name": "Travis Kelce",
+      "position": "TE",
+      "height": "6-5",
+      "weight": 250,
+      "age": 35,
+      "experience": 12,
+      "college": "Cincinnati"
+    },
+    {
+      "number": 10,
+      "name": "Isiah Pacheco",
+      "position": "RB",
+      "height": "5-11",
+      "weight": 216,
+      "age": 25,
+      "experience": 3,
+      "college": "Rutgers"
+    },
+    {
+      "number": 1,
+      "name": "Xavier Worthy",
+      "position": "WR",
+      "height": "6-0",
+      "weight": 165,
+      "age": 21,
+      "experience": "R",
+      "college": "Texas"
+    },
+    {
+      "number": 32,
+      "name": "Nick Bolton",
+      "position": "LB",
+      "height": "6-0",
+      "weight": 237,
+      "age": 24,
+      "experience": 4,
+      "college": "Missouri"
+    },
+    {
+      "number": 20,
+      "name": "Justin Reid",
+      "position": "S",
+      "height": "6-1",
+      "weight": 203,
+      "age": 27,
+      "experience": 7,
+      "college": "Stanford"
+    },
+    {
+      "number": 23,
+      "name": "Drue Tranquill",
+      "position": "LB",
+      "height": "6-2",
+      "weight": 234,
+      "age": 29,
+      "experience": 6,
+      "college": "Notre Dame"
+    },
+    {
+      "number": 56,
+      "name": "George Karlaftis",
+      "position": "DE",
+      "height": "6-4",
+      "weight": 266,
+      "age": 23,
+      "experience": 3,
+      "college": "Purdue"
+    }
+  ]
+}
