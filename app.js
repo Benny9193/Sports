@@ -276,6 +276,21 @@ function setupEventListeners() {
             searchInput.blur();
         }
     });
+
+    // Event delegation for favorite buttons
+    const sportsContainer = document.getElementById('sportsContainer');
+    sportsContainer.addEventListener('click', (e) => {
+        if (e.target.classList.contains('favorite-btn') || e.target.closest('.favorite-btn')) {
+            const btn = e.target.classList.contains('favorite-btn') ? e.target : e.target.closest('.favorite-btn');
+            const sportCard = btn.closest('.sport-card');
+            if (sportCard) {
+                const sportName = sportCard.dataset.sportName;
+                if (sportName) {
+                    toggleFavorite(sportName);
+                }
+            }
+        }
+    });
 }
 
 // Render sports based on current filter and search
@@ -327,8 +342,8 @@ function renderSports() {
                     const isFavorited = favorites.has(sport.name);
 
                     categoryHtml += `
-                        <div class="sport-card ${isHighlighted ? 'highlight' : ''} ${isFavorited ? 'favorited' : ''}">
-                            <button class="favorite-btn" onclick="toggleFavorite('${sport.name.replace(/'/g, "\\\'")}')" aria-label="Toggle favorite">
+                        <div class="sport-card ${isHighlighted ? 'highlight' : ''} ${isFavorited ? 'favorited' : ''}" data-sport-name="${sport.name.replace(/"/g, '&quot;')}">
+                            <button class="favorite-btn" aria-label="Toggle favorite">
                                 ${isFavorited ? '❤️' : '🤍'}
                             </button>
                             <div class="sport-name">${highlightText(sport.name, searchTerm)}</div>
@@ -364,11 +379,17 @@ function renderSports() {
     updateStats();
 }
 
+// Escape special regex characters
+function escapeRegExp(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
 // Highlight search terms in text
 function highlightText(text, term) {
     if (!term) return text;
 
-    const regex = new RegExp(`(${term})`, 'gi');
+    const escapedTerm = escapeRegExp(term);
+    const regex = new RegExp(`(${escapedTerm})`, 'gi');
     return text.replace(regex, '<strong>$1</strong>');
 }
 
@@ -408,10 +429,10 @@ function updateThemeButton() {
     const themeToggle = document.getElementById('themeToggle');
     if (darkMode) {
         themeIcon.textContent = '☀️';
-        themeToggle.childNodes[1].textContent = ' Light Mode';
+        themeToggle.innerHTML = '<span id="themeIcon">☀️</span> Light Mode';
     } else {
         themeIcon.textContent = '🌙';
-        themeToggle.childNodes[1].textContent = ' Dark Mode';
+        themeToggle.innerHTML = '<span id="themeIcon">🌙</span> Dark Mode';
     }
 }
 
