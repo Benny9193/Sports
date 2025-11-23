@@ -211,11 +211,15 @@ const sportsData = {
 // State management
 let currentFilter = 'all';
 let searchTerm = '';
+let favorites = new Set();
+let darkMode = false;
 
 // Initialize app
 document.addEventListener('DOMContentLoaded', () => {
+    loadPreferences();
     renderSports();
     setupEventListeners();
+    updateStats();
 });
 
 // Setup event listeners
@@ -236,6 +240,56 @@ function setupEventListeners() {
     searchInput.addEventListener('input', (e) => {
         searchTerm = e.target.value.toLowerCase();
         renderSports();
+    });
+
+    // Theme toggle
+    const themeToggle = document.getElementById('themeToggle');
+    themeToggle.addEventListener('click', toggleTheme);
+
+    // Scroll to top button
+    const scrollToTopBtn = document.getElementById('scrollToTop');
+    scrollToTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Show/hide scroll to top button
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            scrollToTopBtn.classList.add('visible');
+        } else {
+            scrollToTopBtn.classList.remove('visible');
+        }
+    });
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', (e) => {
+        // Focus search with '/' key
+        if (e.key === '/' && document.activeElement !== searchInput) {
+            e.preventDefault();
+            searchInput.focus();
+        }
+        // Clear search with 'Escape' key
+        if (e.key === 'Escape' && document.activeElement === searchInput) {
+            searchInput.value = '';
+            searchTerm = '';
+            renderSports();
+            searchInput.blur();
+        }
+    });
+
+    // Event delegation for favorite buttons
+    const sportsContainer = document.getElementById('sportsContainer');
+    sportsContainer.addEventListener('click', (e) => {
+        if (e.target.classList.contains('favorite-btn') || e.target.closest('.favorite-btn')) {
+            const btn = e.target.classList.contains('favorite-btn') ? e.target : e.target.closest('.favorite-btn');
+            const sportCard = btn.closest('.sport-card');
+            if (sportCard) {
+                const sportName = sportCard.dataset.sportName;
+                if (sportName) {
+                    toggleFavorite(sportName);
+                }
+            }
+        }
     });
 }
 
@@ -285,9 +339,13 @@ function renderSports() {
                     const isHighlighted = searchTerm &&
                         (sport.name.toLowerCase().includes(searchTerm) ||
                          sport.description.toLowerCase().includes(searchTerm));
+                    const isFavorited = favorites.has(sport.name);
 
                     categoryHtml += `
-                        <div class="sport-card ${isHighlighted ? 'highlight' : ''}">
+                        <div class="sport-card ${isHighlighted ? 'highlight' : ''} ${isFavorited ? 'favorited' : ''}" data-sport-name="${sport.name.replace(/"/g, '&quot;')}">
+                            <button class="favorite-btn" aria-label="Toggle favorite">
+                                ${isFavorited ? '❤️' : '🤍'}
+                            </button>
                             <div class="sport-name">${highlightText(sport.name, searchTerm)}</div>
                             <div class="sport-description">${highlightText(sport.description, searchTerm)}</div>
                         </div>
@@ -316,12 +374,112 @@ function renderSports() {
             </div>
         `;
     }
+
+    // Update statistics after rendering
+    updateStats();
+}
+
+// Escape special regex characters
+function escapeRegExp(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 // Highlight search terms in text
 function highlightText(text, term) {
     if (!term) return text;
 
-    const regex = new RegExp(`(${term})`, 'gi');
+    const escapedTerm = escapeRegExp(term);
+    const regex = new RegExp(`(${escapedTerm})`, 'gi');
     return text.replace(regex, '<strong>$1</strong>');
+}
+
+// Load user preferences from localStorage
+function loadPreferences() {
+    // Load dark mode preference
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+        darkMode = true;
+        document.documentElement.setAttribute('data-theme', 'dark');
+        updateThemeButton();
+    }
+
+    // Load favorites
+    const savedFavorites = localStorage.getItem('favorites');
+    if (savedFavorites) {
+        favorites = new Set(JSON.parse(savedFavorites));
+    }
+}
+
+// Toggle dark mode
+function toggleTheme() {
+    darkMode = !darkMode;
+    if (darkMode) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+    } else {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+    }
+    updateThemeButton();
+}
+
+// Update theme button text
+function updateThemeButton() {
+    const themeIcon = document.getElementById('themeIcon');
+    const themeToggle = document.getElementById('themeToggle');
+    if (darkMode) {
+        themeIcon.textContent = '☀️';
+        themeToggle.innerHTML = '<span id="themeIcon">☀️</span> Light Mode';
+    } else {
+        themeIcon.textContent = '🌙';
+        themeToggle.innerHTML = '<span id="themeIcon">🌙</span> Dark Mode';
+    }
+}
+
+// Toggle favorite
+function toggleFavorite(sportName) {
+    if (favorites.has(sportName)) {
+        favorites.delete(sportName);
+    } else {
+        favorites.add(sportName);
+    }
+    localStorage.setItem('favorites', JSON.stringify(Array.from(favorites)));
+    renderSports();
+}
+
+// Update statistics display
+function updateStats() {
+    let totalSports = 0;
+    Object.values(sportsData).forEach(category => {
+        Object.values(category.subcategories).forEach(sports => {
+            totalSports += sports.length;
+        });
+    });
+    
+    const statsDisplay = document.getElementById('sportsCount');
+    if (statsDisplay) {
+        // Count visible sports if filtering
+        if (searchTerm || currentFilter !== 'all') {
+            let visibleSports = 0;
+            const categoriesToShow = currentFilter === 'all'
+                ? Object.keys(sportsData)
+                : [currentFilter];
+
+            categoriesToShow.forEach(categoryKey => {
+                const category = sportsData[categoryKey];
+                if (category) {
+                    Object.values(category.subcategories).forEach(sports => {
+                        const filtered = sports.filter(sport =>
+                            sport.name.toLowerCase().includes(searchTerm) ||
+                            sport.description.toLowerCase().includes(searchTerm)
+                        );
+                        visibleSports += filtered.length;
+                    });
+                }
+            });
+            statsDisplay.textContent = `${visibleSports} / ${totalSports}`;
+        } else {
+            statsDisplay.textContent = totalSports;
+        }
+    }
 }
