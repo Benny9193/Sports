@@ -24,12 +24,10 @@ A comprehensive reference guide to sports from around the world, organized by ca
 - **Cricket** - Bat-and-ball game played between two teams of 11, popular in Commonwealth nations
 - **Volleyball** - Two teams of 6 players separated by a net, hitting a ball over the net
 - **Handball** - Teams of 7 players throw a ball into the opposing goal
-- **Ice Hockey** - Played on ice with 6 players per team using sticks to shoot a puck
 - **Field Hockey** - Played on grass or turf with 11 players per team using curved sticks
 
 ### Other Team Sports
 - **Lacrosse** - Team sport using a small rubber ball and long-handled stick with a net
-- **Water Polo** - Aquatic team sport played in a pool with 7 players per team
 - **Ultimate Frisbee** - Non-contact team sport played with a flying disc
 - **Netball** - Ball sport similar to basketball, popular in Commonwealth countries
 
@@ -40,7 +38,6 @@ A comprehensive reference guide to sports from around the world, organized by ca
 - **Middle Distance Running** - 800m and 1500m races
 - **Long Distance Running** - 5000m, 10000m, marathon
 - **Hurdles** - Running races with barriers to jump over
-- **Relay Races** - Team events where athletes take turns running
 - **High Jump** - Jumping over a horizontal bar
 - **Long Jump** - Jumping for distance from a running start
 - **Triple Jump** - Hop, skip, and jump for distance
@@ -53,7 +50,6 @@ A comprehensive reference guide to sports from around the world, organized by ca
 ### Other Individual Sports
 - **Golf** - Hitting a ball into holes using various clubs, lowest score wins
 - **Cycling** - Racing on bicycles on roads, tracks, or trails
-- **Swimming** - Racing in water using various strokes
 - **Gymnastics** - Physical exercises requiring strength, flexibility, and coordination
 - **Archery** - Shooting arrows at a target with a bow
 - **Bowling** - Rolling a ball to knock down pins
@@ -63,7 +59,7 @@ A comprehensive reference guide to sports from around the world, organized by ca
 
 - **Swimming** - Competitive racing in pools (freestyle, backstroke, breaststroke, butterfly)
 - **Diving** - Acrobatic jumps from platforms or springboards
-- **Water Polo** - Team sport played in water
+- **Water Polo** - Aquatic team sport played in a pool with 7 players per team
 - **Synchronized Swimming** - Artistic aquatic performance sport
 - **Surfing** - Riding ocean waves on a board
 - **Sailing** - Racing or cruising in wind-powered boats
