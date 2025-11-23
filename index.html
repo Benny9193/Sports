@@ -31,7 +31,16 @@
             <p class="subtitle">A comprehensive reference guide to sports from around the world</p>
 
             <div class="search-bar">
-                <input type="text" id="searchInput" placeholder="Search for a sport...">
+                <input type="text" id="searchInput" placeholder="Search for a sport..." aria-label="Search for sports">
+            </div>
+
+            <div class="header-controls">
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <span id="themeIcon">🌙</span> Dark Mode
+                </button>
+                <div class="stats-display" id="statsDisplay">
+                    <span id="sportsCount">0</span> sports
+                </div>
             </div>
         </div>
     </header>
@@ -60,6 +69,8 @@
             <p>Sports Compendium - A living document. Contributions, corrections, and additions are welcome!</p>
         </div>
     </footer>
+
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">↑</button>
 
     <script src="app.js"></script>
 </body>
