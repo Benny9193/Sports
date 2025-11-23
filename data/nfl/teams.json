@@ -1,0 +1,15 @@
+{
+  "league": "NFL",
+  "fullName": "National Football League",
+  "founded": 1920,
+  "teams": [
+    {
+      "id": "atlanta-falcons",
+      "name": "Atlanta Falcons",
+      "abbreviation": "ATL",
+      "conference": "NFC",
+      "division": "South",
+      "dataFile": "teams/atlanta-falcons.json"
+    }
+  ]
+}
