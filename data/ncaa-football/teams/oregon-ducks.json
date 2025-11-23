@@ -1,0 +1,287 @@
+{
+  "teamInfo": {
+    "name": "Oregon Ducks",
+    "city": "Eugene",
+    "state": "Oregon",
+    "abbreviation": "ORE",
+    "conference": "Big Ten",
+    "division": "",
+    "founded": 1894,
+    "stadium": "Autzen Stadium",
+    "headCoach": "Dan Lanning",
+    "colors": ["Green", "Yellow"],
+    "mascot": "The Duck"
+  },
+  "roster": [
+    {
+      "number": 8,
+      "name": "Dillon Gabriel",
+      "position": "QB",
+      "height": "6-0",
+      "weight": 200,
+      "year": "Senior",
+      "hometown": "Mililani, HI",
+      "highSchool": "Mililani High School"
+    },
+    {
+      "number": 11,
+      "name": "Austin Novosad",
+      "position": "QB",
+      "height": "6-2",
+      "weight": 205,
+      "year": "Freshman",
+      "hometown": "Dripping Springs, TX",
+      "highSchool": "Dripping Springs High School"
+    },
+    {
+      "number": 1,
+      "name": "Jordan James",
+      "position": "RB",
+      "height": "5-10",
+      "weight": 205,
+      "year": "Junior",
+      "hometown": "Oakland, CA",
+      "highSchool": "Oakland High School"
+    },
+    {
+      "number": 24,
+      "name": "Noah Whittington",
+      "position": "RB",
+      "height": "5-11",
+      "weight": 200,
+      "year": "Senior",
+      "hometown": "Cupertino, CA",
+      "highSchool": "Monta Vista High School"
+    },
+    {
+      "number": 3,
+      "name": "Traeshon Holden",
+      "position": "WR",
+      "height": "6-3",
+      "weight": 205,
+      "year": "Senior",
+      "hometown": "Rancho Cucamonga, CA",
+      "highSchool": "Rancho Cucamonga High School"
+    },
+    {
+      "number": 7,
+      "name": "Evan Stewart",
+      "position": "WR",
+      "height": "6-0",
+      "weight": 175,
+      "year": "Junior",
+      "hometown": "Frisco, TX",
+      "highSchool": "Liberty High School"
+    },
+    {
+      "number": 9,
+      "name": "Tez Johnson",
+      "position": "WR",
+      "height": "5-10",
+      "weight": 165,
+      "year": "Senior",
+      "hometown": "Troy, AL",
+      "highSchool": "Charles Henderson High School"
+    },
+    {
+      "number": 4,
+      "name": "Terrance Ferguson",
+      "position": "WR",
+      "height": "6-3",
+      "weight": 215,
+      "year": "Sophomore",
+      "hometown": "Clovis, CA",
+      "highSchool": "Central High School"
+    },
+    {
+      "number": 16,
+      "name": "Justius Lowe",
+      "position": "TE",
+      "height": "6-5",
+      "weight": 250,
+      "year": "Senior",
+      "hometown": "Las Vegas, NV",
+      "highSchool": "Bishop Gorman High School"
+    },
+    {
+      "number": 88,
+      "name": "Terrance Ferguson",
+      "position": "TE",
+      "height": "6-4",
+      "weight": 240,
+      "year": "Junior",
+      "hometown": "Phoenix, AZ",
+      "highSchool": "Desert Vista High School"
+    },
+    {
+      "number": 55,
+      "name": "Ajani Cornelius",
+      "position": "OL",
+      "height": "6-5",
+      "weight": 325,
+      "year": "Senior",
+      "hometown": "Loganville, GA",
+      "highSchool": "Grayson High School"
+    },
+    {
+      "number": 77,
+      "name": "Josh Conerly Jr.",
+      "position": "OL",
+      "height": "6-5",
+      "weight": 315,
+      "year": "Junior",
+      "hometown": "Seattle, WA",
+      "highSchool": "Rainier Beach High School"
+    },
+    {
+      "number": 73,
+      "name": "Iapani Laloulu",
+      "position": "OL",
+      "height": "6-3",
+      "weight": 320,
+      "year": "Senior",
+      "hometown": "Honolulu, HI",
+      "highSchool": "Kahuku High School"
+    },
+    {
+      "number": 54,
+      "name": "Marcus Harper II",
+      "position": "OL",
+      "height": "6-4",
+      "weight": 300,
+      "year": "Junior",
+      "hometown": "Suwanee, GA",
+      "highSchool": "North Gwinnett High School"
+    },
+    {
+      "number": 78,
+      "name": "Nishad Strother",
+      "position": "OL",
+      "height": "6-5",
+      "weight": 330,
+      "year": "Sophomore",
+      "hometown": "Long Beach, CA",
+      "highSchool": "St. John Bosco High School"
+    },
+    {
+      "number": 91,
+      "name": "Jordan Burch",
+      "position": "DL",
+      "height": "6-5",
+      "weight": 295,
+      "year": "Senior",
+      "hometown": "Columbia, SC",
+      "highSchool": "Hammond School"
+    },
+    {
+      "number": 99,
+      "name": "Derrick Harmon",
+      "position": "DL",
+      "height": "6-5",
+      "weight": 305,
+      "year": "Senior",
+      "hometown": "Baltimore, MD",
+      "highSchool": "St. Frances Academy"
+    },
+    {
+      "number": 94,
+      "name": "Matayo Uiagalelei",
+      "position": "DL",
+      "height": "6-5",
+      "weight": 265,
+      "year": "Sophomore",
+      "hometown": "Bellflower, CA",
+      "highSchool": "St. John Bosco High School"
+    },
+    {
+      "number": 0,
+      "name": "Jordyn Tyson",
+      "position": "LB",
+      "height": "6-2",
+      "weight": 225,
+      "year": "Junior",
+      "hometown": "Las Vegas, NV",
+      "highSchool": "Bishop Gorman High School"
+    },
+    {
+      "number": 21,
+      "name": "Jeffrey Bassa",
+      "position": "LB",
+      "height": "6-3",
+      "weight": 235,
+      "year": "Senior",
+      "hometown": "Marietta, GA",
+      "highSchool": "Hillgrove High School"
+    },
+    {
+      "number": 44,
+      "name": "Bryce Boettcher",
+      "position": "LB",
+      "height": "6-2",
+      "weight": 230,
+      "year": "Junior",
+      "hometown": "Camas, WA",
+      "highSchool": "Camas High School"
+    },
+    {
+      "number": 5,
+      "name": "Dontae Manning",
+      "position": "CB",
+      "height": "6-0",
+      "weight": 185,
+      "year": "Senior",
+      "hometown": "Gardena, CA",
+      "highSchool": "Junipero Serra High School"
+    },
+    {
+      "number": 2,
+      "name": "Jabbar Muhammad",
+      "position": "CB",
+      "height": "6-1",
+      "weight": 190,
+      "year": "Senior",
+      "hometown": "Dallas, TX",
+      "highSchool": "South Oak Cliff High School"
+    },
+    {
+      "number": 13,
+      "name": "Evan Williams",
+      "position": "S",
+      "height": "6-2",
+      "weight": 205,
+      "year": "Senior",
+      "hometown": "Fresno, CA",
+      "highSchool": "Central High School"
+    },
+    {
+      "number": 20,
+      "name": "Kobe Savage",
+      "position": "S",
+      "height": "6-1",
+      "weight": 200,
+      "year": "Junior",
+      "hometown": "Las Vegas, NV",
+      "highSchool": "Bishop Gorman High School"
+    },
+    {
+      "number": 43,
+      "name": "Atticus Sappington",
+      "position": "K",
+      "height": "6-0",
+      "weight": 195,
+      "year": "Sophomore",
+      "hometown": "Carlsbad, CA",
+      "highSchool": "La Costa Canyon High School"
+    },
+    {
+      "number": 36,
+      "name": "Ross James",
+      "position": "P",
+      "height": "6-2",
+      "weight": 205,
+      "year": "Junior",
+      "hometown": "Adelaide, Australia",
+      "highSchool": "Rostrevor College"
+    }
+  ]
+}

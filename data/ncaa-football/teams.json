@@ -1,0 +1,15 @@
+{
+  "league": "NCAA Football",
+  "fullName": "National Collegiate Athletic Association Football",
+  "founded": 1869,
+  "teams": [
+    {
+      "id": "oregon-ducks",
+      "name": "Oregon Ducks",
+      "abbreviation": "ORE",
+      "conference": "Big Ten",
+      "division": "",
+      "dataFile": "teams/oregon-ducks.json"
+    }
+  ]
+}
