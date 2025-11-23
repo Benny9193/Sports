@@ -2,6 +2,44 @@
 
 A comprehensive reference guide to sports from around the world, organized by category.
 
+## 🚀 Web Application
+
+This repository includes an interactive web application to browse and search sports!
+
+### Running the Web App
+
+1. **Clone the repository** (if you haven't already)
+   ```bash
+   git clone <repository-url>
+   cd Sports
+   ```
+
+2. **Start the server**
+   ```bash
+   node server.js
+   ```
+   Or using npm:
+   ```bash
+   npm start
+   ```
+
+3. **Open your browser**
+   Navigate to `http://localhost:3000`
+
+### Features
+
+- 🔍 **Search**: Quickly find sports by name or description
+- 🏷️ **Filter**: Browse sports by category
+- 📊 **Statistics**: See sport counts and filtered results
+- 📱 **Responsive**: Works on desktop, tablet, and mobile devices
+- 🎨 **Modern UI**: Clean, intuitive interface with smooth interactions
+
+### Technology Stack
+
+- Pure HTML5, CSS3, and JavaScript (no frameworks required)
+- Node.js for the development server
+- Responsive design with CSS Grid and Flexbox
+
 ## Table of Contents
 - [Team Sports](#team-sports)
 - [Individual Sports](#individual-sports)

@@ -1,0 +1,19 @@
+{
+  "name": "sports-compendium",
+  "version": "1.0.0",
+  "description": "A comprehensive reference guide to sports from around the world",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "sports",
+    "compendium",
+    "reference",
+    "web-app"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
