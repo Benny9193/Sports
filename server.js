@@ -61,6 +61,8 @@ const server = http.createServer((req, res) => {
 
 server.listen(PORT, () => {
     console.log(`🏆 Sports Compendium server running at http://localhost:${PORT}/`);
-    console.log(`📋 Atlanta Falcons Roster: http://localhost:${PORT}/roster.html`);
+    console.log(`🏈 NFL Team Rosters: http://localhost:${PORT}/roster.html`);
+    console.log(`   - Atlanta Falcons`);
+    console.log(`   - Jacksonville Jaguars`);
     console.log(`Press Ctrl+C to stop the server`);
 });

@@ -1,5 +1,40 @@
 /* Roster Page Styles */
 
+.team-selector {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 12px;
+}
+
+.team-selector label {
+    display: block;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+}
+
+#teamSelect {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+#teamSelect:hover {
+    border-color: #888;
+}
+
+#teamSelect:focus {
+    outline: none;
+    border-color: #3b82f6;
+}
+
 .team-info {
     background: linear-gradient(135deg, #A71930 0%, #000000 100%);
     color: white;

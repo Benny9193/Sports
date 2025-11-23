@@ -10,6 +10,14 @@
       "conference": "NFC",
       "division": "South",
       "dataFile": "teams/atlanta-falcons.json"
+    },
+    {
+      "id": "jacksonville-jaguars",
+      "name": "Jacksonville Jaguars",
+      "abbreviation": "JAX",
+      "conference": "AFC",
+      "division": "South",
+      "dataFile": "teams/jacksonville-jaguars.json"
     }
   ]
 }

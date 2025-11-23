@@ -1,5 +1,7 @@
-// Atlanta Falcons Roster Viewer
+// NFL Team Roster Viewer
+let teamsIndex = null;
 let rosterData = null;
+let currentTeamId = null;
 let currentFilter = 'all';
 let searchTerm = '';
 
@@ -10,34 +12,131 @@ const positionGroups = {
     special: ['K', 'P', 'LS']
 };
 
-// Load roster data when page loads
+// Team color schemes
+const teamColors = {
+    'atlanta-falcons': {
+        primary: '#A71930',
+        secondary: '#000000'
+    },
+    'jacksonville-jaguars': {
+        primary: '#006778',
+        secondary: '#D7A22A'
+    }
+};
+
+// Load teams and initialize when page loads
 document.addEventListener('DOMContentLoaded', async () => {
-    await loadRosterData();
+    await loadTeamsIndex();
     setupEventListeners();
-    renderPage();
+
+    // Load default team from URL or first team
+    const urlParams = new URLSearchParams(window.location.search);
+    const teamParam = urlParams.get('team');
+
+    if (teamParam && teamsIndex.teams.find(t => t.id === teamParam)) {
+        await loadTeam(teamParam);
+    } else if (teamsIndex && teamsIndex.teams.length > 0) {
+        await loadTeam(teamsIndex.teams[0].id);
+    }
 });
 
-// Load roster data from JSON file
-async function loadRosterData() {
+// Load teams index
+async function loadTeamsIndex() {
     try {
-        const response = await fetch('/data/nfl/teams/atlanta-falcons.json');
+        const response = await fetch('/data/nfl/teams.json');
+        if (!response.ok) {
+            throw new Error('Failed to load teams index');
+        }
+        teamsIndex = await response.json();
+        populateTeamSelector();
+    } catch (error) {
+        console.error('Error loading teams index:', error);
+        document.getElementById('teamSelect').innerHTML = '<option value="">Error loading teams</option>';
+    }
+}
+
+// Populate team selector dropdown
+function populateTeamSelector() {
+    const select = document.getElementById('teamSelect');
+    select.innerHTML = '';
+
+    teamsIndex.teams.forEach(team => {
+        const option = document.createElement('option');
+        option.value = team.id;
+        option.textContent = team.name;
+        select.appendChild(option);
+    });
+}
+
+// Load a specific team's roster
+async function loadTeam(teamId) {
+    try {
+        const team = teamsIndex.teams.find(t => t.id === teamId);
+        if (!team) {
+            throw new Error(`Team not found: ${teamId}`);
+        }
+
+        const response = await fetch(`/data/nfl/${team.dataFile}`);
         if (!response.ok) {
             throw new Error('Failed to load roster data');
         }
+
         rosterData = await response.json();
+        currentTeamId = teamId;
+
+        // Update team selector
+        document.getElementById('teamSelect').value = teamId;
+
+        // Update page title
+        document.getElementById('pageTitle').textContent = rosterData.teamInfo.name;
+
+        // Update URL without reload
+        const url = new URL(window.location);
+        url.searchParams.set('team', teamId);
+        window.history.pushState({}, '', url);
+
+        // Update team info background color
+        updateTeamColors();
+
+        // Reset filters
+        currentFilter = 'all';
+        searchTerm = '';
+        document.getElementById('playerSearch').value = '';
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        filterButtons.forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.filter === 'all');
+        });
+
+        renderPage();
     } catch (error) {
-        console.error('Error loading roster data:', error);
+        console.error('Error loading team roster:', error);
         document.getElementById('rosterContainer').innerHTML = `
             <div class="no-results">
                 <h3>Error Loading Roster</h3>
-                <p>Unable to load the Atlanta Falcons roster data. Please try again later.</p>
+                <p>Unable to load the roster data. Please try again later.</p>
             </div>
         `;
     }
 }
 
+// Update team colors based on selected team
+function updateTeamColors() {
+    const teamInfo = document.getElementById('teamInfo');
+    const colors = teamColors[currentTeamId] || { primary: '#3b82f6', secondary: '#1e40af' };
+
+    teamInfo.style.background = `linear-gradient(135deg, ${colors.primary} 0%, ${colors.secondary} 100%)`;
+}
+
 // Setup event listeners
 function setupEventListeners() {
+    // Team selector
+    const teamSelect = document.getElementById('teamSelect');
+    teamSelect.addEventListener('change', (e) => {
+        if (e.target.value) {
+            loadTeam(e.target.value);
+        }
+    });
+
     // Search input
     const searchInput = document.getElementById('playerSearch');
     searchInput.addEventListener('input', (e) => {
@@ -288,14 +387,15 @@ function renderPositionGroup(groupName, categories) {
 // Render a single player card
 function renderPlayerCard(player) {
     const experience = player.experience === 'R' ? 'Rookie' : `${player.experience} years`;
+    const colors = teamColors[currentTeamId] || { primary: '#3b82f6', secondary: '#1e40af' };
 
     return `
         <div class="player-card">
             <div class="player-header">
-                <div class="player-number">${player.number}</div>
+                <div class="player-number" style="background: ${colors.primary};">${player.number}</div>
                 <div class="player-name-pos">
                     <div class="player-name">${player.name}</div>
-                    <span class="player-position">${player.position}</span>
+                    <span class="player-position" style="background: ${colors.secondary};">${player.position}</span>
                 </div>
             </div>
             <div class="player-details">

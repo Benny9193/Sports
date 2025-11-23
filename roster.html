@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atlanta Falcons Roster - Sports Compendium</title>
+    <title>NFL Team Rosters - Sports Compendium</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="public/css/roster.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Atlanta Falcons Roster</h1>
+            <h1 id="pageTitle">NFL Team Rosters</h1>
             <nav>
                 <a href="index.html">Back to Sports</a>
             </nav>
         </header>
+
+        <div class="team-selector">
+            <label for="teamSelect">Select Team:</label>
+            <select id="teamSelect">
+                <option value="">Loading teams...</option>
+            </select>
+        </div>
 
         <div class="team-info" id="teamInfo">
             <!-- Team info will be populated here -->

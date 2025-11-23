@@ -1,0 +1,586 @@
+{
+  "teamInfo": {
+    "name": "Jacksonville Jaguars",
+    "city": "Jacksonville",
+    "state": "Florida",
+    "abbreviation": "JAX",
+    "conference": "AFC",
+    "division": "South",
+    "founded": 1995,
+    "stadium": "EverBank Stadium",
+    "headCoach": "Doug Pederson",
+    "colors": ["Teal", "Black", "Gold", "White"]
+  },
+  "roster": [
+    {
+      "number": 16,
+      "name": "Trevor Lawrence",
+      "position": "QB",
+      "height": "6-6",
+      "weight": 220,
+      "age": 25,
+      "experience": 4,
+      "college": "Clemson"
+    },
+    {
+      "number": 2,
+      "name": "C.J. Beathard",
+      "position": "QB",
+      "height": "6-2",
+      "weight": 215,
+      "age": 30,
+      "experience": 8,
+      "college": "Iowa"
+    },
+    {
+      "number": 13,
+      "name": "Mac Jones",
+      "position": "QB",
+      "height": "6-3",
+      "weight": 214,
+      "age": 26,
+      "experience": 4,
+      "college": "Alabama"
+    },
+    {
+      "number": 1,
+      "name": "Travis Etienne Jr.",
+      "position": "RB",
+      "height": "5-10",
+      "weight": 215,
+      "age": 25,
+      "experience": 4,
+      "college": "Clemson"
+    },
+    {
+      "number": 33,
+      "name": "D'Ernest Johnson",
+      "position": "RB",
+      "height": "5-10",
+      "weight": 208,
+      "age": 28,
+      "experience": 6,
+      "college": "South Florida"
+    },
+    {
+      "number": 45,
+      "name": "Tank Bigsby",
+      "position": "RB",
+      "height": "6-0",
+      "weight": 213,
+      "age": 23,
+      "experience": 2,
+      "college": "Auburn"
+    },
+    {
+      "number": 28,
+      "name": "JaMycal Hasty",
+      "position": "RB",
+      "height": "5-8",
+      "weight": 205,
+      "age": 28,
+      "experience": 5,
+      "college": "Baylor"
+    },
+    {
+      "number": 0,
+      "name": "Gabe Davis",
+      "position": "WR",
+      "height": "6-2",
+      "weight": 210,
+      "age": 25,
+      "experience": 5,
+      "college": "UCF"
+    },
+    {
+      "number": 17,
+      "name": "Evan Engram",
+      "position": "TE",
+      "height": "6-3",
+      "weight": 240,
+      "age": 30,
+      "experience": 8,
+      "college": "Ole Miss"
+    },
+    {
+      "number": 7,
+      "name": "Brian Thomas Jr.",
+      "position": "WR",
+      "height": "6-3",
+      "weight": 209,
+      "age": 22,
+      "experience": "R",
+      "college": "LSU"
+    },
+    {
+      "number": 11,
+      "name": "Parker Washington",
+      "position": "WR",
+      "height": "5-10",
+      "weight": 210,
+      "age": 22,
+      "experience": 2,
+      "college": "Penn State"
+    },
+    {
+      "number": 10,
+      "name": "Devin Duvernay",
+      "position": "WR",
+      "height": "5-11",
+      "weight": 200,
+      "age": 27,
+      "experience": 5,
+      "college": "Texas"
+    },
+    {
+      "number": 15,
+      "name": "Tim Jones",
+      "position": "WR",
+      "height": "6-0",
+      "weight": 190,
+      "age": 25,
+      "experience": 3,
+      "college": "Southern Mississippi"
+    },
+    {
+      "number": 4,
+      "name": "Jamal Agnew",
+      "position": "WR",
+      "height": "5-10",
+      "weight": 190,
+      "age": 29,
+      "experience": 8,
+      "college": "San Diego"
+    },
+    {
+      "number": 19,
+      "name": "Josh Reynolds",
+      "position": "WR",
+      "height": "6-3",
+      "weight": 196,
+      "age": 29,
+      "experience": 8,
+      "college": "Texas A&M"
+    },
+    {
+      "number": 88,
+      "name": "Brenton Strange",
+      "position": "TE",
+      "height": "6-3",
+      "weight": 255,
+      "age": 24,
+      "experience": 2,
+      "college": "Penn State"
+    },
+    {
+      "number": 87,
+      "name": "Luke Farrell",
+      "position": "TE",
+      "height": "6-6",
+      "weight": 255,
+      "age": 26,
+      "experience": 4,
+      "college": "Ohio State"
+    },
+    {
+      "number": 84,
+      "name": "Austin Trammell",
+      "position": "WR",
+      "height": "6-1",
+      "weight": 200,
+      "age": 25,
+      "experience": 1,
+      "college": "Rice"
+    },
+    {
+      "number": 71,
+      "name": "Walker Little",
+      "position": "OT",
+      "height": "6-7",
+      "weight": 313,
+      "age": 25,
+      "experience": 4,
+      "college": "Stanford"
+    },
+    {
+      "number": 79,
+      "name": "Anton Harrison",
+      "position": "OT",
+      "height": "6-4",
+      "weight": 315,
+      "age": 22,
+      "experience": 2,
+      "college": "Oklahoma"
+    },
+    {
+      "number": 69,
+      "name": "Brandon Scherff",
+      "position": "OG",
+      "height": "6-5",
+      "weight": 315,
+      "age": 33,
+      "experience": 10,
+      "college": "Iowa"
+    },
+    {
+      "number": 58,
+      "name": "Mitch Morse",
+      "position": "C",
+      "height": "6-6",
+      "weight": 305,
+      "age": 32,
+      "experience": 10,
+      "college": "Missouri"
+    },
+    {
+      "number": 51,
+      "name": "Cooper Hodges",
+      "position": "OG",
+      "height": "6-3",
+      "weight": 305,
+      "age": 24,
+      "experience": 2,
+      "college": "Appalachian State"
+    },
+    {
+      "number": 77,
+      "name": "Cam Robinson",
+      "position": "OT",
+      "height": "6-6",
+      "weight": 335,
+      "age": 29,
+      "experience": 8,
+      "college": "Alabama"
+    },
+    {
+      "number": 68,
+      "name": "Ezra Cleveland",
+      "position": "OG",
+      "height": "6-6",
+      "weight": 311,
+      "age": 26,
+      "experience": 5,
+      "college": "Boise State"
+    },
+    {
+      "number": 75,
+      "name": "Javon Foster",
+      "position": "OT",
+      "height": "6-5",
+      "weight": 321,
+      "age": 23,
+      "experience": "R",
+      "college": "Missouri"
+    },
+    {
+      "number": 76,
+      "name": "Blake Hance",
+      "position": "OT",
+      "height": "6-6",
+      "weight": 305,
+      "age": 28,
+      "experience": 5,
+      "college": "Northwestern"
+    },
+    {
+      "number": 64,
+      "name": "Tyler Shatley",
+      "position": "C",
+      "height": "6-3",
+      "weight": 305,
+      "age": 33,
+      "experience": 11,
+      "college": "Clemson"
+    },
+    {
+      "number": 93,
+      "name": "Roy Robertson-Harris",
+      "position": "DE",
+      "height": "6-5",
+      "weight": 290,
+      "age": 31,
+      "experience": 9,
+      "college": "UTEP"
+    },
+    {
+      "number": 95,
+      "name": "Maason Smith",
+      "position": "DT",
+      "height": "6-5",
+      "weight": 310,
+      "age": 21,
+      "experience": "R",
+      "college": "LSU"
+    },
+    {
+      "number": 44,
+      "name": "Devin Lloyd",
+      "position": "LB",
+      "height": "6-3",
+      "weight": 237,
+      "age": 26,
+      "experience": 3,
+      "college": "Utah"
+    },
+    {
+      "number": 48,
+      "name": "Chapelle Russell",
+      "position": "LB",
+      "height": "6-0",
+      "weight": 230,
+      "age": 26,
+      "experience": 4,
+      "college": "Temple"
+    },
+    {
+      "number": 52,
+      "name": "Chad Muma",
+      "position": "LB",
+      "height": "6-3",
+      "weight": 239,
+      "age": 25,
+      "experience": 3,
+      "college": "Wyoming"
+    },
+    {
+      "number": 49,
+      "name": "Caleb Johnson",
+      "position": "LB",
+      "height": "6-0",
+      "weight": 236,
+      "age": 23,
+      "experience": "R",
+      "college": "SMU"
+    },
+    {
+      "number": 41,
+      "name": "Josh Hines-Allen",
+      "position": "LB",
+      "height": "6-5",
+      "weight": 255,
+      "age": 27,
+      "experience": 7,
+      "college": "Kentucky"
+    },
+    {
+      "number": 51,
+      "name": "Ventrell Miller",
+      "position": "LB",
+      "height": "6-0",
+      "weight": 235,
+      "age": 24,
+      "experience": 2,
+      "college": "Florida"
+    },
+    {
+      "number": 99,
+      "name": "Josh Allen",
+      "position": "LB",
+      "height": "6-5",
+      "weight": 262,
+      "age": 27,
+      "experience": 6,
+      "college": "Kentucky"
+    },
+    {
+      "number": 5,
+      "name": "Travon Walker",
+      "position": "DE",
+      "height": "6-5",
+      "weight": 275,
+      "age": 24,
+      "experience": 3,
+      "college": "Georgia"
+    },
+    {
+      "number": 91,
+      "name": "Arik Armstead",
+      "position": "DT",
+      "height": "6-7",
+      "weight": 290,
+      "age": 31,
+      "experience": 10,
+      "college": "Oregon"
+    },
+    {
+      "number": 94,
+      "name": "Estefan Diaz",
+      "position": "DT",
+      "height": "6-3",
+      "weight": 298,
+      "age": 24,
+      "experience": 2,
+      "college": "Temple"
+    },
+    {
+      "number": 96,
+      "name": "Angelo Blackson",
+      "position": "DT",
+      "height": "6-4",
+      "weight": 315,
+      "age": 32,
+      "experience": 10,
+      "college": "Auburn"
+    },
+    {
+      "number": 98,
+      "name": "Tyler Lacy",
+      "position": "DT",
+      "height": "6-3",
+      "weight": 292,
+      "age": 25,
+      "experience": 3,
+      "college": "Oklahoma State"
+    },
+    {
+      "number": 92,
+      "name": "Adam Gotsis",
+      "position": "DT",
+      "height": "6-4",
+      "weight": 287,
+      "age": 32,
+      "experience": 9,
+      "college": "Georgia Tech"
+    },
+    {
+      "number": 32,
+      "name": "Tyson Campbell",
+      "position": "CB",
+      "height": "6-2",
+      "weight": 193,
+      "age": 24,
+      "experience": 4,
+      "college": "Georgia"
+    },
+    {
+      "number": 2,
+      "name": "Ronald Darby",
+      "position": "CB",
+      "height": "5-11",
+      "weight": 193,
+      "age": 30,
+      "experience": 10,
+      "college": "Florida State"
+    },
+    {
+      "number": 23,
+      "name": "Darnell Savage",
+      "position": "S",
+      "height": "5-11",
+      "weight": 198,
+      "age": 27,
+      "experience": 6,
+      "college": "Maryland"
+    },
+    {
+      "number": 20,
+      "name": "Daniel Thomas",
+      "position": "S",
+      "height": "6-1",
+      "weight": 202,
+      "age": 26,
+      "experience": 4,
+      "college": "Auburn"
+    },
+    {
+      "number": 21,
+      "name": "Montaric Brown",
+      "position": "CB",
+      "height": "5-11",
+      "weight": 190,
+      "age": 25,
+      "experience": 3,
+      "college": "Arkansas"
+    },
+    {
+      "number": 25,
+      "name": "Christian Braswell",
+      "position": "CB",
+      "height": "6-0",
+      "weight": 185,
+      "age": 24,
+      "experience": 2,
+      "college": "Rutgers"
+    },
+    {
+      "number": 26,
+      "name": "Antonio Johnson",
+      "position": "S",
+      "height": "6-3",
+      "weight": 210,
+      "age": 24,
+      "experience": 2,
+      "college": "Texas A&M"
+    },
+    {
+      "number": 29,
+      "name": "Jarrian Jones",
+      "position": "CB",
+      "height": "6-0",
+      "weight": 192,
+      "age": 22,
+      "experience": "R",
+      "college": "Florida State"
+    },
+    {
+      "number": 37,
+      "name": "Andrew Wingard",
+      "position": "S",
+      "height": "5-11",
+      "weight": 207,
+      "age": 28,
+      "experience": 6,
+      "college": "Wyoming"
+    },
+    {
+      "number": 38,
+      "name": "Tre Herndon",
+      "position": "CB",
+      "height": "6-1",
+      "weight": 195,
+      "age": 28,
+      "experience": 7,
+      "college": "Vanderbilt"
+    },
+    {
+      "number": 30,
+      "name": "Jalen Julius",
+      "position": "S",
+      "height": "6-0",
+      "weight": 197,
+      "age": 22,
+      "experience": "R",
+      "college": "Kentucky"
+    },
+    {
+      "number": 9,
+      "name": "Logan Cooke",
+      "position": "P",
+      "height": "6-1",
+      "weight": 214,
+      "age": 29,
+      "experience": 7,
+      "college": "Mississippi State"
+    },
+    {
+      "number": 39,
+      "name": "Cam Little",
+      "position": "K",
+      "height": "5-9",
+      "weight": 181,
+      "age": 23,
+      "experience": 2,
+      "college": "Arkansas"
+    },
+    {
+      "number": 46,
+      "name": "Ross Matiscik",
+      "position": "LS",
+      "height": "6-3",
+      "weight": 245,
+      "age": 28,
+      "experience": 5,
+      "college": "Baylor"
+    }
+  ]
+}
