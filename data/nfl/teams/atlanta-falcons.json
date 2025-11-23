@@ -1,0 +1,556 @@
+{
+  "teamInfo": {
+    "name": "Atlanta Falcons",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "abbreviation": "ATL",
+    "conference": "NFC",
+    "division": "South",
+    "founded": 1966,
+    "stadium": "Mercedes-Benz Stadium",
+    "headCoach": "Raheem Morris",
+    "colors": ["Red", "Black", "Silver", "White"]
+  },
+  "roster": [
+    {
+      "number": 18,
+      "name": "Kirk Cousins",
+      "position": "QB",
+      "height": "6-3",
+      "weight": 202,
+      "age": 36,
+      "experience": 12,
+      "college": "Michigan State"
+    },
+    {
+      "number": 4,
+      "name": "Michael Penix Jr.",
+      "position": "QB",
+      "height": "6-3",
+      "weight": 216,
+      "age": 24,
+      "experience": "R",
+      "college": "Washington"
+    },
+    {
+      "number": 7,
+      "name": "Bijan Robinson",
+      "position": "RB",
+      "height": "6-0",
+      "weight": 215,
+      "age": 22,
+      "experience": 2,
+      "college": "Texas"
+    },
+    {
+      "number": 25,
+      "name": "Tyler Allgeier",
+      "position": "RB",
+      "height": "5-11",
+      "weight": 220,
+      "age": 24,
+      "experience": 3,
+      "college": "BYU"
+    },
+    {
+      "number": 20,
+      "name": "Jase McClellan",
+      "position": "RB",
+      "height": "5-11",
+      "weight": 210,
+      "age": 22,
+      "experience": "R",
+      "college": "Alabama"
+    },
+    {
+      "number": 38,
+      "name": "Avery Williams",
+      "position": "RB",
+      "height": "5-9",
+      "weight": 195,
+      "age": 25,
+      "experience": 4,
+      "college": "Boise State"
+    },
+    {
+      "number": 5,
+      "name": "Drake London",
+      "position": "WR",
+      "height": "6-4",
+      "weight": 219,
+      "age": 23,
+      "experience": 3,
+      "college": "USC"
+    },
+    {
+      "number": 8,
+      "name": "Kyle Pitts",
+      "position": "TE",
+      "height": "6-6",
+      "weight": 246,
+      "age": 24,
+      "experience": 4,
+      "college": "Florida"
+    },
+    {
+      "number": 81,
+      "name": "Darnell Mooney",
+      "position": "WR",
+      "height": "5-11",
+      "weight": 186,
+      "age": 27,
+      "experience": 5,
+      "college": "Tulane"
+    },
+    {
+      "number": 15,
+      "name": "Van Jefferson",
+      "position": "WR",
+      "height": "6-1",
+      "weight": 200,
+      "age": 28,
+      "experience": 5,
+      "college": "Florida"
+    },
+    {
+      "number": 12,
+      "name": "KhaDarel Hodge",
+      "position": "WR",
+      "height": "6-2",
+      "weight": 205,
+      "age": 29,
+      "experience": 7,
+      "college": "Prairie View A&M"
+    },
+    {
+      "number": 19,
+      "name": "Casey Washington",
+      "position": "WR",
+      "height": "5-8",
+      "weight": 170,
+      "age": 22,
+      "experience": "R",
+      "college": "Illinois"
+    },
+    {
+      "number": 13,
+      "name": "Chris Blair",
+      "position": "WR",
+      "height": "6-1",
+      "weight": 185,
+      "age": 23,
+      "experience": "R",
+      "college": "Alcorn State"
+    },
+    {
+      "number": 85,
+      "name": "MyCole Pruitt",
+      "position": "TE",
+      "height": "6-2",
+      "weight": 245,
+      "age": 32,
+      "experience": 10,
+      "college": "Southern Illinois"
+    },
+    {
+      "number": 87,
+      "name": "Charlie Woerner",
+      "position": "TE",
+      "height": "6-5",
+      "weight": 245,
+      "age": 27,
+      "experience": 5,
+      "college": "Georgia"
+    },
+    {
+      "number": 83,
+      "name": "Ross Dwelley",
+      "position": "TE",
+      "height": "6-5",
+      "weight": 250,
+      "age": 29,
+      "experience": 7,
+      "college": "San Diego"
+    },
+    {
+      "number": 73,
+      "name": "Jake Matthews",
+      "position": "OT",
+      "height": "6-5",
+      "weight": 309,
+      "age": 32,
+      "experience": 11,
+      "college": "Texas A&M"
+    },
+    {
+      "number": 76,
+      "name": "Kaleb McGary",
+      "position": "OT",
+      "height": "6-7",
+      "weight": 317,
+      "age": 29,
+      "experience": 6,
+      "college": "Washington"
+    },
+    {
+      "number": 63,
+      "name": "Chris Lindstrom",
+      "position": "OG",
+      "height": "6-4",
+      "weight": 307,
+      "age": 27,
+      "experience": 6,
+      "college": "Boston College"
+    },
+    {
+      "number": 51,
+      "name": "Drew Dalman",
+      "position": "C",
+      "height": "6-3",
+      "weight": 301,
+      "age": 26,
+      "experience": 4,
+      "college": "Stanford"
+    },
+    {
+      "number": 79,
+      "name": "Matthew Bergeron",
+      "position": "OG",
+      "height": "6-5",
+      "weight": 321,
+      "age": 23,
+      "experience": 2,
+      "college": "Syracuse"
+    },
+    {
+      "number": 62,
+      "name": "Ryan Neuzil",
+      "position": "OG",
+      "height": "6-3",
+      "weight": 305,
+      "age": 26,
+      "experience": 3,
+      "college": "Appalachian State"
+    },
+    {
+      "number": 74,
+      "name": "Storm Norton",
+      "position": "OT",
+      "height": "6-7",
+      "weight": 317,
+      "age": 30,
+      "experience": 6,
+      "college": "Toledo"
+    },
+    {
+      "number": 61,
+      "name": "Elijah Wilkinson",
+      "position": "OG",
+      "height": "6-5",
+      "weight": 320,
+      "age": 29,
+      "experience": 8,
+      "college": "Massachusetts"
+    },
+    {
+      "number": 52,
+      "name": "Ryan Coll",
+      "position": "C",
+      "height": "6-5",
+      "weight": 300,
+      "age": 24,
+      "experience": "R",
+      "college": "Ball State"
+    },
+    {
+      "number": 93,
+      "name": "Grady Jarrett",
+      "position": "DT",
+      "height": "6-0",
+      "weight": 305,
+      "age": 31,
+      "experience": 10,
+      "college": "Clemson"
+    },
+    {
+      "number": 97,
+      "name": "Grady Jarrett",
+      "position": "DT",
+      "height": "6-3",
+      "weight": 292,
+      "age": 25,
+      "experience": 4,
+      "college": "Auburn"
+    },
+    {
+      "number": 55,
+      "name": "Kaden Elliss",
+      "position": "LB",
+      "height": "6-3",
+      "weight": 245,
+      "age": 28,
+      "experience": 6,
+      "college": "Idaho"
+    },
+    {
+      "number": 53,
+      "name": "Nate Landman",
+      "position": "LB",
+      "height": "6-3",
+      "weight": 240,
+      "age": 25,
+      "experience": 2,
+      "college": "Colorado"
+    },
+    {
+      "number": 44,
+      "name": "Troy Andersen",
+      "position": "LB",
+      "height": "6-3",
+      "weight": 243,
+      "age": 25,
+      "experience": 3,
+      "college": "Montana State"
+    },
+    {
+      "number": 48,
+      "name": "Bud Dupree",
+      "position": "LB",
+      "height": "6-4",
+      "weight": 269,
+      "age": 31,
+      "experience": 10,
+      "college": "Kentucky"
+    },
+    {
+      "number": 92,
+      "name": "Lorenzo Carter",
+      "position": "LB",
+      "height": "6-5",
+      "weight": 250,
+      "age": 29,
+      "experience": 7,
+      "college": "Georgia"
+    },
+    {
+      "number": 0,
+      "name": "Matthew Judon",
+      "position": "LB",
+      "height": "6-3",
+      "weight": 261,
+      "age": 32,
+      "experience": 9,
+      "college": "Grand Valley State"
+    },
+    {
+      "number": 9,
+      "name": "Lorenzo Carter",
+      "position": "LB",
+      "height": "6-4",
+      "weight": 265,
+      "age": 26,
+      "experience": 4,
+      "college": "Michigan"
+    },
+    {
+      "number": 95,
+      "name": "Ta'Quon Graham",
+      "position": "DT",
+      "height": "6-4",
+      "weight": 305,
+      "age": 27,
+      "experience": 5,
+      "college": "Texas"
+    },
+    {
+      "number": 96,
+      "name": "Zach Harrison",
+      "position": "DE",
+      "height": "6-6",
+      "weight": 272,
+      "age": 23,
+      "experience": 2,
+      "college": "Ohio State"
+    },
+    {
+      "number": 91,
+      "name": "Eddie Goldman",
+      "position": "DT",
+      "height": "6-4",
+      "weight": 325,
+      "age": 30,
+      "experience": 9,
+      "college": "Florida State"
+    },
+    {
+      "number": 90,
+      "name": "Ruke Orhorhoro",
+      "position": "DT",
+      "height": "6-4",
+      "weight": 295,
+      "age": 22,
+      "experience": "R",
+      "college": "Clemson"
+    },
+    {
+      "number": 94,
+      "name": "Arnold Ebiketie",
+      "position": "LB",
+      "height": "6-2",
+      "weight": 250,
+      "age": 25,
+      "experience": 3,
+      "college": "Penn State"
+    },
+    {
+      "number": 47,
+      "name": "James Smith-Williams",
+      "position": "LB",
+      "height": "6-3",
+      "weight": 265,
+      "age": 27,
+      "experience": 5,
+      "college": "NC State"
+    },
+    {
+      "number": 24,
+      "name": "A.J. Terrell",
+      "position": "CB",
+      "height": "6-1",
+      "weight": 195,
+      "age": 26,
+      "experience": 5,
+      "college": "Clemson"
+    },
+    {
+      "number": 34,
+      "name": "Clark Phillips III",
+      "position": "CB",
+      "height": "5-10",
+      "weight": 184,
+      "age": 22,
+      "experience": 2,
+      "college": "Utah"
+    },
+    {
+      "number": 26,
+      "name": "Antonio Hamilton Sr.",
+      "position": "CB",
+      "height": "6-0",
+      "weight": 192,
+      "age": 31,
+      "experience": 9,
+      "college": "South Carolina State"
+    },
+    {
+      "number": 21,
+      "name": "Mike Hughes",
+      "position": "CB",
+      "height": "5-10",
+      "weight": 189,
+      "age": 27,
+      "experience": 7,
+      "college": "Central Florida"
+    },
+    {
+      "number": 35,
+      "name": "Dee Alford",
+      "position": "CB",
+      "height": "5-9",
+      "weight": 190,
+      "age": 27,
+      "experience": 4,
+      "college": "Tusculum"
+    },
+    {
+      "number": 31,
+      "name": "Kevin King",
+      "position": "CB",
+      "height": "6-3",
+      "weight": 200,
+      "age": 29,
+      "experience": 8,
+      "college": "Washington"
+    },
+    {
+      "number": 3,
+      "name": "Jessie Bates III",
+      "position": "S",
+      "height": "6-1",
+      "weight": 200,
+      "age": 27,
+      "experience": 7,
+      "college": "Wake Forest"
+    },
+    {
+      "number": 27,
+      "name": "Richie Grant",
+      "position": "S",
+      "height": "6-0",
+      "weight": 194,
+      "age": 26,
+      "experience": 4,
+      "college": "UCF"
+    },
+    {
+      "number": 37,
+      "name": "DeMarcco Hellams",
+      "position": "S",
+      "height": "6-1",
+      "weight": 208,
+      "age": 23,
+      "experience": 2,
+      "college": "Alabama"
+    },
+    {
+      "number": 32,
+      "name": "Micah Abernathy",
+      "position": "S",
+      "height": "6-0",
+      "weight": 205,
+      "age": 27,
+      "experience": 5,
+      "college": "Tennessee"
+    },
+    {
+      "number": 29,
+      "name": "Tre Tarpley III",
+      "position": "S",
+      "height": "5-11",
+      "weight": 205,
+      "age": 23,
+      "experience": "R",
+      "college": "Syracuse"
+    },
+    {
+      "number": 6,
+      "name": "Younghoe Koo",
+      "position": "K",
+      "height": "5-9",
+      "weight": 203,
+      "age": 30,
+      "experience": 7,
+      "college": "Georgia Southern"
+    },
+    {
+      "number": 10,
+      "name": "Bradley Pinion",
+      "position": "P",
+      "height": "6-5",
+      "weight": 229,
+      "age": 30,
+      "experience": 10,
+      "college": "Clemson"
+    },
+    {
+      "number": 49,
+      "name": "Liam McCullough",
+      "position": "LS",
+      "height": "6-2",
+      "weight": 245,
+      "age": 26,
+      "experience": 3,
+      "college": "Ohio State"
+    }
+  ]
+}
