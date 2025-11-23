@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A comprehensive reference guide to sports from around the world, organized by category. Explore team sports, individual sports, water sports, winter sports, combat sports, and more.">
+    <meta name="keywords" content="sports, athletics, team sports, individual sports, water sports, winter sports, combat sports, racket sports, extreme sports, motor sports">
+    <meta name="author" content="Sports Compendium">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sports Compendium - Your Complete Sports Reference">
+    <meta property="og:description" content="A comprehensive reference guide to sports from around the world">
+    <meta property="og:image" content="/assets/og-image.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sports Compendium">
+    <meta name="twitter:description" content="A comprehensive reference guide to sports from around the world">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏆</text></svg>">
+
+    <title>Sports Compendium - Your Complete Sports Reference</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🏆 Sports Compendium</h1>
+            <p class="subtitle">A comprehensive reference guide to sports from around the world</p>
+
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search for a sport...">
+            </div>
+        </div>
+    </header>
+
+    <nav class="category-nav">
+        <div class="container">
+            <button class="category-btn active" data-category="all">All Sports</button>
+            <button class="category-btn" data-category="team">Team Sports</button>
+            <button class="category-btn" data-category="individual">Individual</button>
+            <button class="category-btn" data-category="water">Water Sports</button>
+            <button class="category-btn" data-category="winter">Winter Sports</button>
+            <button class="category-btn" data-category="combat">Combat</button>
+            <button class="category-btn" data-category="racket">Racket Sports</button>
+            <button class="category-btn" data-category="athletics">Athletics</button>
+            <button class="category-btn" data-category="motor">Motor Sports</button>
+            <button class="category-btn" data-category="extreme">Extreme</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div id="sportsContainer"></div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Sports Compendium - A living document. Contributions, corrections, and additions are welcome!</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
