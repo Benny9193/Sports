@@ -1,32 +1,13 @@
 {
-  "name": "sports-compendium",
+  "name": "sports",
   "version": "1.0.0",
-  "description": "A comprehensive web-based reference guide to sports from around the world",
-  "main": "index.html",
+  "description": "A sports application",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "live-server --port=3000 --open=index.html",
-    "start": "npm run dev",
-    "build": "echo 'Static site - no build needed'",
-    "test": "echo 'No tests configured yet'"
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "sports",
-    "reference",
-    "compendium",
-    "athletics",
-    "web-app"
-  ],
+  "keywords": ["sports"],
   "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "live-server": "^1.2.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yourusername/sports-compendium.git"
-  },
-  "bugs": {
-    "url": "https://github.com/yourusername/sports-compendium/issues"
-  },
-  "homepage": "https://github.com/yourusername/sports-compendium#readme"
+  "license": "ISC"
 }
