@@ -1,6 +1,6 @@
-# Sports Compendium
+# Sports
 
-A comprehensive reference guide to sports from around the world, organized by category.
+A sports application project.
 
 ## 🚀 Web Application
 
@@ -220,6 +220,25 @@ This repository includes an interactive web application to browse and search spo
 - **Hurling** - Irish stick-and-ball sport
 - **Gaelic Football** - Irish football combining soccer and rugby elements
 
-## Contributing
+---
 
-This compendium is meant to be a living document. Contributions, corrections, and additions are welcome!
+## 💡 How to Use the Web App
+
+1. **Search**: Use the search bar to find specific sports
+2. **Filter**: Click category buttons to view sports by type
+3. **Browse**: Scroll through organized categories
+4. **Explore**: Click on any sport card to see its description
+
+## 🎯 Future Enhancements
+
+- [ ] Add sport icons/images
+- [ ] Include video demonstrations
+- [ ] Add sport rules and regulations
+- [ ] Multi-language support
+- [ ] Favorites/bookmarking feature
+- [ ] Dark mode toggle
+- [ ] Share functionality
+
+## 🙏 Acknowledgments
+
+This compendium is meant to be a living document. Special thanks to all contributors who help keep this resource comprehensive and up-to-date!
