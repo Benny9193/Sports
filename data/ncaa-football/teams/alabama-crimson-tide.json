@@ -1,0 +1,89 @@
+{
+  "teamInfo": {
+    "name": "Alabama Crimson Tide",
+    "city": "Tuscaloosa",
+    "state": "Alabama",
+    "abbreviation": "ALA",
+    "conference": "SEC",
+    "division": "",
+    "founded": 1892,
+    "stadium": "Bryant-Denny Stadium",
+    "headCoach": "Kalen DeBoer",
+    "colors": ["Crimson", "White"],
+    "mascot": "Big Al"
+  },
+  "roster": [
+    {
+      "number": 4,
+      "name": "Jalen Milroe",
+      "position": "QB",
+      "height": "6-2",
+      "weight": 225,
+      "year": "Junior",
+      "hometown": "Katy, TX"
+    },
+    {
+      "number": 2,
+      "name": "Justice Haynes",
+      "position": "RB",
+      "height": "5-11",
+      "weight": 195,
+      "year": "Sophomore",
+      "hometown": "Roswell, GA"
+    },
+    {
+      "number": 1,
+      "name": "Ryan Williams",
+      "position": "WR",
+      "height": "6-0",
+      "weight": 175,
+      "year": "Freshman",
+      "hometown": "Saraland, AL"
+    },
+    {
+      "number": 17,
+      "name": "Jalen Hale",
+      "position": "WR",
+      "height": "6-2",
+      "weight": 195,
+      "year": "Junior",
+      "hometown": "Longview, TX"
+    },
+    {
+      "number": 11,
+      "name": "Jihaad Campbell",
+      "position": "LB",
+      "height": "6-3",
+      "weight": 245,
+      "year": "Junior",
+      "hometown": "Cedar Creek, TX"
+    },
+    {
+      "number": 13,
+      "name": "Malachi Moore",
+      "position": "S",
+      "height": "6-0",
+      "weight": 202,
+      "year": "Senior",
+      "hometown": "Hewitt, TX"
+    },
+    {
+      "number": 33,
+      "name": "Que Robinson",
+      "position": "LB",
+      "height": "6-2",
+      "weight": 235,
+      "year": "Junior",
+      "hometown": "Gadsden, AL"
+    },
+    {
+      "number": 10,
+      "name": "Domani Jackson",
+      "position": "CB",
+      "height": "6-1",
+      "weight": 195,
+      "year": "Junior",
+      "hometown": "Santa Ana, CA"
+    }
+  ]
+}

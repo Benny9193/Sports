@@ -10,6 +10,30 @@
       "conference": "NFC",
       "division": "South",
       "dataFile": "teams/atlanta-falcons.json"
+    },
+    {
+      "id": "kansas-city-chiefs",
+      "name": "Kansas City Chiefs",
+      "abbreviation": "KC",
+      "conference": "AFC",
+      "division": "West",
+      "dataFile": "teams/kansas-city-chiefs.json"
+    },
+    {
+      "id": "san-francisco-49ers",
+      "name": "San Francisco 49ers",
+      "abbreviation": "SF",
+      "conference": "NFC",
+      "division": "West",
+      "dataFile": "teams/san-francisco-49ers.json"
+    },
+    {
+      "id": "philadelphia-eagles",
+      "name": "Philadelphia Eagles",
+      "abbreviation": "PHI",
+      "conference": "NFC",
+      "division": "East",
+      "dataFile": "teams/philadelphia-eagles.json"
     }
   ]
 }
