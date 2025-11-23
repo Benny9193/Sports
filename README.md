@@ -32,22 +32,6 @@ A comprehensive reference guide to sports from around the world, organized by ca
 - **Netball** - Ball sport similar to basketball, popular in Commonwealth countries
 
 ## Individual Sports
-
-### Track and Field
-- **Sprinting** - Short-distance running events (100m, 200m, 400m)
-- **Middle Distance Running** - 800m and 1500m races
-- **Long Distance Running** - 5000m, 10000m, marathon
-- **Hurdles** - Running races with barriers to jump over
-- **High Jump** - Jumping over a horizontal bar
-- **Long Jump** - Jumping for distance from a running start
-- **Triple Jump** - Hop, skip, and jump for distance
-- **Pole Vault** - Using a pole to vault over a high bar
-- **Shot Put** - Throwing a heavy spherical object
-- **Discus Throw** - Throwing a heavy disc for distance
-- **Javelin Throw** - Throwing a spear-like implement
-- **Hammer Throw** - Throwing a heavy weight attached to a wire
-
-### Other Individual Sports
 - **Golf** - Hitting a ball into holes using various clubs, lowest score wins
 - **Cycling** - Racing on bicycles on roads, tracks, or trails
 - **Gymnastics** - Physical exercises requiring strength, flexibility, and coordination
