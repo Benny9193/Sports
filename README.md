@@ -1,8 +1,87 @@
-# Sports Compendium
+# Sports Compendium 🏆
 
-A comprehensive reference guide to sports from around the world, organized by category.
+A comprehensive web-based reference guide to sports from around the world, organized by category.
 
-## Table of Contents
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+## 🌐 Live Demo
+
+Open `index.html` in your browser to explore the interactive web application.
+
+## ✨ Features
+
+- **Interactive Search** - Real-time search across all sports and descriptions
+- **Category Filtering** - Filter by sport type (Team, Individual, Water, Winter, Combat, etc.)
+- **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
+- **Modern UI** - Clean, card-based design with smooth animations
+- **Easy Navigation** - Sticky category bar for quick access
+
+## 🚀 Quick Start
+
+### View the Web App
+
+Simply open `index.html` in any modern web browser.
+
+### Run with Live Server
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+```
+
+Visit `http://localhost:3000` in your browser.
+
+### Alternative: Node.js Server
+
+```bash
+# Run the basic HTTP server
+node server.js
+```
+
+## 📁 Project Structure
+
+```
+sports-compendium/
+├── index.html          # Main HTML file
+├── styles.css          # Styling and responsive design
+├── app.js              # JavaScript for interactivity
+├── package.json        # Project dependencies
+├── server.js           # Simple HTTP server
+├── CONTRIBUTING.md     # Contribution guidelines
+├── .gitignore          # Git ignore rules
+└── README.md           # This file
+```
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3 (with CSS Variables and Flexbox/Grid)
+- Vanilla JavaScript (ES6+)
+- No external frameworks or libraries required
+
+## 📱 Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## 🤝 Contributing
+
+Contributions, corrections, and additions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 📚 Sports Categories
+
+### Table of Contents
 - [Team Sports](#team-sports)
 - [Individual Sports](#individual-sports)
 - [Water Sports](#water-sports)
@@ -182,6 +261,25 @@ A comprehensive reference guide to sports from around the world, organized by ca
 - **Hurling** - Irish stick-and-ball sport
 - **Gaelic Football** - Irish football combining soccer and rugby elements
 
-## Contributing
+---
 
-This compendium is meant to be a living document. Contributions, corrections, and additions are welcome!
+## 💡 How to Use the Web App
+
+1. **Search**: Use the search bar to find specific sports
+2. **Filter**: Click category buttons to view sports by type
+3. **Browse**: Scroll through organized categories
+4. **Explore**: Click on any sport card to see its description
+
+## 🎯 Future Enhancements
+
+- [ ] Add sport icons/images
+- [ ] Include video demonstrations
+- [ ] Add sport rules and regulations
+- [ ] Multi-language support
+- [ ] Favorites/bookmarking feature
+- [ ] Dark mode toggle
+- [ ] Share functionality
+
+## 🙏 Acknowledgments
+
+This compendium is meant to be a living document. Special thanks to all contributors who help keep this resource comprehensive and up-to-date!
